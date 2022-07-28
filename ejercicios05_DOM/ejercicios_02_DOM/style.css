@@ -1,0 +1,32 @@
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buttons-areas{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.div{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.divOne{
+    background-color: #00bbbb;
+}
+
+.divTwo{
+    background-color: #2ab300;
+}
+
+.divThree{
+    background-color: #8c00ff;
+}
