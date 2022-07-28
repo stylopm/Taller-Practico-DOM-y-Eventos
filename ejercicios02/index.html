@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Clases</title>
+    <link rel="icon" type="image/x-icon" href="./images/azul.png">
+</head>
+
+<body>
+    <p>
+    <h1>Ejercicios de clases</h1>
+    <ol>
+        <li>
+            <button onclick="ejercicio1()">Ejecutar</button>
+            Usando el operador for realiza la tabla de multiplicar del 2.
+            Ejemplo:
+            <pre>
+            2 x 1 = 2
+            2 x 2 = 4
+            2 x 3 = 6
+            ....
+            2 x 10 = 20
+            </pre>
+        </li>
+        <li>
+            <button onclick="ejercicio2()">Ejecutar</button>
+            Crear 2 arreglos como los siguientes:<br>
+            <pre>const nombres = ['alberto', 'paty', 'Jose', 'daniel', 'luis', 'antonio', 'Luis', 'paty', 'luis']; </pre>
+            <pre>const nombreMayusculas = []; </pre>
+            <p>
+                Utiliza la función `forEach` para recorrer cada elemento del arreglo `nombres`. En cada iteración debes
+                agregar el nombre en mayúsculas en el arreglo `nombreMayusculas`
+            </p>
+            <p>
+                Usando un console.log, imprime el resultado. Debes tener el siguiente resultado <br>
+                ALBERTO, PATY, JOSE, DANIEL, LUIS, ANTONIO, LUIS, PATY, LUIS
+            </p>
+        </li>
+        <li>
+            <button onclick="ejercicio3()">Ejecutar</button>
+            <p>Crea una nueva variable con el nombre nombreMinusculas. Para esta parte vas a utilizar la función map. El
+                objetivo es poder crear un nuevo arreglo a partir del arreglo nombreMayusculas. Este nuevo arreglo debe
+                contener ahora los nombre en minusculas.</p>
+            <p>Usa el console.log para imprimir el resultado el cual debe ser el siguiente:</p>
+            <p>alberto, paty, jose, daniel, luis, antonio, luis, paty, luis</p>
+        </li>
+        <li>
+            <button onclick="ejercicio4()">Ejecutar</button>
+            <p>
+                Crea una variable con el nombre filtroNombres. Vas a utilizar el arreglo nombres para esta tarea. Debes
+                utilizar la función filter para que solo obtengas los nombres que sean luis Usa un console.log para ver
+                el resultado. Debes tener como resultado lo siguiente:
+            </p>
+            <p>
+            <pre> luis, Luis, luis </pre>
+            </p>
+        </li>
+        <li>
+            <button onclick="ejercicio5()">Ejecutar</button>
+            <p>
+                Crea un nuevo arreglo con el nombre números y agrega los siguientes valores:
+            </p>
+            <p>
+            <pre> const numeros = [2,4,6,8,10] </pre>
+            </p>
+        </li>
+        <li>
+            <button onclick="ejercicio6()">Ejecutar</button>
+            <p>
+                Crea una nueva variable con el nombre total. El objetivo es que uses la función reduce la cual debe
+                sumar todos los valores del arreglo números. Imprime el resultado de la variable total. El resultado
+                debe ser 30.
+            </p>
+        </li>
+    </ol>
+    <div id="result">
+    </div>
+    </p>
+    <script type="text/javascript" src="./javascript/script.js"></script>
+</body>
+
+</html>
